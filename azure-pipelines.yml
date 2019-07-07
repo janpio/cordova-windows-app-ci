@@ -5,4 +5,4 @@ pool:
   vmImage: 'vs2017-win2016'
 
 steps:
-- script: Add-AppxPackage -Path "CordovaApp.Windows10_1.0.0.0_anycpu_debug.appx"
+- powershell: Add-AppxPackage -Path "CordovaApp.Windows10_1.0.0.0_anycpu_debug.appx"
