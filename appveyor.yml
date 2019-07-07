@@ -1,0 +1,2 @@
+install:
+- Add-AppxPackage -Path "CordovaApp.Windows10_1.0.0.0_anycpu_debug.appx"
